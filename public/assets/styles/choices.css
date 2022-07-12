@@ -21,6 +21,7 @@
   background-color: #eaeaea;
   cursor: not-allowed;
   -webkit-user-select: none;
+      -ms-user-select: none;
           user-select: none;
 }
 .choices.is-disabled .choices__item {
@@ -280,6 +281,7 @@
 .choices__item--disabled {
   cursor: not-allowed;
   -webkit-user-select: none;
+      -ms-user-select: none;
           user-select: none;
   opacity: 0.5;
 }
