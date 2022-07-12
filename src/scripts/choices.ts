@@ -1,6 +1,6 @@
 import merge from 'deepmerge';
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Fuse from 'fuse.js';
+import Fuse from 'fuse.js/dist/fuse';
 
 import {
   activateChoices,
